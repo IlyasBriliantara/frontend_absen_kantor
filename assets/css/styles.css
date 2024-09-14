@@ -2,7 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #121212;
+    background-color: #000;
     color: #ffffff;
 }
 
@@ -22,13 +22,13 @@ body, html {
     flex-grow: 1;
 }
 
-.table-dark {
-    background-color: #2c2c2c;
-    color: #ffffff;
+.table-dark thead th {
+    background-color: #ffffff; /* Latar belakang putih */
+    color: #000000; /* Teks berwarna hitam */
 }
 
 .list-group-item {
-    background-color: #2c2c2c;
+    background-color: #191919;
 }
 
 .list-group-item h5 {
@@ -87,7 +87,7 @@ body, html {
     padding: 20px;
     text-align: center;
     display: inline-block; /* Untuk menjaga ukuran sesuai konten */
-    background-color: #1b1b1b; /* Warna latar belakang kotak */
+    background-color: #191919; /* Warna latar belakang kotak */
 }
 
 .camera-box img {
@@ -144,3 +144,11 @@ button {
     background-color: rgba(255, 255, 255, 0.4); /* Efek ketika tombol diklik */
 }
 
+.view-absensi .card {
+    border-radius: 20px;
+}
+
+.view-absensi .list-group-item {
+    border: none; /* Hilangkan garis pembatas antar item */
+    background-color: transparent; /* Sesuaikan background agar menyatu dengan card */
+}
