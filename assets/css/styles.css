@@ -152,3 +152,91 @@ button {
     border: none; /* Hilangkan garis pembatas antar item */
     background-color: transparent; /* Sesuaikan background agar menyatu dengan card */
 }
+
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #6c757d; /* Border abu-abu */
+    border-radius: 15px; /* Sudut lengkung */
+    background-color: #1c1c1c; /* Warna latar belakang kotak (abu-abu gelap) */
+}
+
+.login-icon img {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.form-control {
+    background-color: #333;
+    border: none;
+    color: white;
+}
+
+.form-control:focus {
+    background-color: #333;
+    color: white;
+    outline: none;
+    box-shadow: none;
+}
+
+.form-check-input {
+    background-color: #444;
+    border: none;
+}
+
+.btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-outline-light:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+body {
+    background-color: #000; /* Latar belakang hitam pekat */
+}
+
+.register-container {
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #6c757d; /* Warna border abu-abu */
+    border-radius: 15px; /* Sudut melengkung */
+    background-color: #1c1c1c; /* Warna abu-abu gelap */
+}
+
+.register-icon img {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.form-control {
+    background-color: #333; /* Warna input abu-abu gelap */
+    border: none;
+    color: white;
+}
+
+.form-control:focus {
+    background-color: #333;
+    color: white;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-outline-light:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+a.text-white:hover {
+    color: #ccc;
+}
