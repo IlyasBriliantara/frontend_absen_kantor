@@ -196,10 +196,6 @@ button {
     color: #000;
 }
 
-body {
-    background-color: #000; /* Latar belakang hitam pekat */
-}
-
 .register-container {
     width: 100%;
     max-width: 400px;
