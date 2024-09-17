@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -23,8 +24,10 @@ body, html {
 }
 
 .table-dark thead th {
-    background-color: #ffffff; /* Latar belakang putih */
-    color: #000000; /* Teks berwarna hitam */
+    background-color: #ffffff;
+    /* Latar belakang putih */
+    color: #000000;
+    /* Teks berwarna hitam */
 }
 
 .list-group-item {
@@ -57,12 +60,14 @@ body, html {
     }
 }
 
-.summary, .view-absensi {
+.summary,
+.view-absensi {
     padding: 15px;
     border-radius: 8px;
 }
 
-.summary h2, .view-absensi h2 {
+.summary h2,
+.view-absensi h2 {
     font-size: 1.5rem;
 }
 
@@ -71,23 +76,29 @@ body, html {
 }
 
 @media screen and (max-width: 992px) {
-    .summary, .view-absensi {
+
+    .summary,
+    .view-absensi {
         margin-bottom: 20px;
     }
 }
 
 .camera-box-container {
     text-align: center;
-    margin-top: 100px; /* Menyesuaikan jarak dari atas */
+    margin-top: 100px;
+    /* Menyesuaikan jarak dari atas */
 }
 
 .camera-box {
-    border: 2px dashed #fff; /* Garis putus-putus berwarna putih */
+    border: 2px dashed #fff;
+    /* Garis putus-putus berwarna putih */
     border-radius: 10px;
     padding: 20px;
     text-align: center;
-    display: inline-block; /* Untuk menjaga ukuran sesuai konten */
-    background-color: #191919; /* Warna latar belakang kotak */
+    display: inline-block;
+    /* Untuk menjaga ukuran sesuai konten */
+    background-color: #191919;
+    /* Warna latar belakang kotak */
 }
 
 .camera-box img {
@@ -102,7 +113,7 @@ button {
     background-color: #333;
     border-color: #fff;
     color: #fff;
-    
+
 }
 
 @media (max-width: 768px) {
@@ -132,16 +143,19 @@ button {
 }
 
 .btn-icon img {
-    margin-bottom: 6px; /* Menyelaraskan posisi ikon */
+    margin-bottom: 6px;
+    /* Menyelaraskan posisi ikon */
 }
 
 .btn-icon:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Efek hover dengan warna transparan */
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Efek hover dengan warna transparan */
     cursor: pointer;
 }
 
 .btn-icon:active {
-    background-color: rgba(255, 255, 255, 0.4); /* Efek ketika tombol diklik */
+    background-color: rgba(255, 255, 255, 0.4);
+    /* Efek ketika tombol diklik */
 }
 
 .view-absensi .card {
@@ -149,17 +163,22 @@ button {
 }
 
 .view-absensi .list-group-item {
-    border: none; /* Hilangkan garis pembatas antar item */
-    background-color: transparent; /* Sesuaikan background agar menyatu dengan card */
+    border: none;
+    /* Hilangkan garis pembatas antar item */
+    background-color: transparent;
+    /* Sesuaikan background agar menyatu dengan card */
 }
 
 
 .login-container {
     width: 100%;
     max-width: 400px;
-    border: 1px solid #6c757d; /* Border abu-abu */
-    border-radius: 15px; /* Sudut lengkung */
-    background-color: #1c1c1c; /* Warna latar belakang kotak (abu-abu gelap) */
+    border: 1px solid #6c757d;
+    /* Border abu-abu */
+    border-radius: 15px;
+    /* Sudut lengkung */
+    background-color: #1c1c1c;
+    /* Warna latar belakang kotak (abu-abu gelap) */
 }
 
 .login-icon img {
@@ -199,9 +218,12 @@ button {
 .register-container {
     width: 100%;
     max-width: 400px;
-    border: 1px solid #6c757d; /* Warna border abu-abu */
-    border-radius: 15px; /* Sudut melengkung */
-    background-color: #1c1c1c; /* Warna abu-abu gelap */
+    border: 1px solid #6c757d;
+    /* Warna border abu-abu */
+    border-radius: 15px;
+    /* Sudut melengkung */
+    background-color: #1c1c1c;
+    /* Warna abu-abu gelap */
 }
 
 .register-icon img {
@@ -211,7 +233,8 @@ button {
 }
 
 .form-control {
-    background-color: #333; /* Warna input abu-abu gelap */
+    background-color: #333;
+    /* Warna input abu-abu gelap */
     border: none;
     color: white;
 }
@@ -234,5 +257,8 @@ button {
 }
 
 a.text-white:hover {
-    color: #ccc;
+    color: #007bff;
+    /* Ubah warna menjadi biru saat di-hover */
+    text-decoration: underline;
+    /* Tetap ada garis bawah saat di-hover */
 }
